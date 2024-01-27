@@ -94,7 +94,7 @@ nav ul {
     display: flex;
     grid-area: area6;
     flex-direction: column;
-    
+    align-items: self-start;
 }
 
 #mapa {
@@ -104,4 +104,10 @@ nav ul {
 footer address{
     display: flex;
     flex-direction: column;
+    align-items: start;
+}
+
+#secciongaleria{
+    display: flex;
+    justify-content: space-around;
 }
