@@ -27,7 +27,7 @@ span {
 
 a {
     font-weight: 600;
-    color: chartreuse;
+    color: blueviolet;
 }
 
 
@@ -57,8 +57,12 @@ a {
     text-decoration: none;
 }
 
+
 nav ul {
+    display: flex;
     list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #secciondatos p {
@@ -87,9 +91,17 @@ nav ul {
 }
 
 #formulario {
+    display: flex;
     grid-area: area6;
+    flex-direction: column;
+    
 }
 
 #mapa {
     grid-area: area7;
+}
+
+footer address{
+    display: flex;
+    flex-direction: column;
 }
