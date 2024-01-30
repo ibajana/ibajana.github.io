@@ -1,0 +1,95 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    background-color: white;
+    background-color: #F1E4C3;
+    margin: 0;
+}
+
+a{
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: #C6A969;
+    margin: 0;
+    padding: 25px;
+}
+ header a{
+    font-size:40px ;
+ }
+
+#Ruby{
+    font-size: 30px;
+}
+
+.highlight{
+    font-weight: bolder;
+}
+.publiDate{
+    padding: 50px;
+    text-align: right;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+#container1 {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    width: 300px;
+}
+
+#container1 img {
+    width: 200px;
+    background-color: white;
+    margin-left: 90px;
+}
+
+#container2{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;   
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+#container2 p{
+    width: 400px;
+}
+
+#lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-left: solid 5px;
+    border-color: #597E52;
+}
+
+.imgLateral{
+    margin: 10px;
+    padding: 10px;
+    height: 120px;
+    width: 100px;
+    box-shadow: 3px 3px 3px  #0000001a;
+}
+
+
+
+
